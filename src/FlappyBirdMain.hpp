@@ -16,7 +16,7 @@ namespace FlappyBird
         {
             if (ScoreFirstDiggit >= 10)
             {
-                ScoreFirstDiggit = 10;
+                ScoreFirstDiggit = 0;
                 ScoreSecondDiggit++;
             }
         }
